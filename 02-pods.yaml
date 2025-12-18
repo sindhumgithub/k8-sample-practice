@@ -3,6 +3,10 @@ kind: Pod
 metadata:
   name: my-pods
   namespace: roboshop
+  labels:
+    project: roboshop
+    environment: dev
+    version: v1
 spec:
   containers:
   - name: my-container
