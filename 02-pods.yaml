@@ -4,6 +4,6 @@ metadata:
   name: my-pods
   namespace: roboshop
 spec:
-  container:
+  containers:
   - name: my-container
     image: 1.29-alpine-perl
