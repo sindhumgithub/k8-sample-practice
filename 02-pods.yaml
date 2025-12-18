@@ -6,4 +6,4 @@ metadata:
 spec:
   containers:
   - name: my-container
-    image: muddanadevops/nginx
+    image: muddanadevops/nginx:v1
